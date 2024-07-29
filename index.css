@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home {
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    left: 85px;
+    color: white;
+}
+
+.guest {
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    left: 340px;
+    color: white;
+}
+
+.homescore {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+.guestscore {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#sumHp {
+    position: absolute;
+    font-size: 50px;
+    width: 155px;
+    height: 11px;
+    left: 62px;
+    top: 30px;
+    color: red;
+    font-family: Cursed Timer ULiL;
+}
+
+#sumGp {
+    position: absolute;
+    font-size: 50px;
+    width: 155px;
+    height: 11px;
+    right: -65px;
+    top: 30px;
+    color: red;
+    font-family: Cursed Timer ULiL;
+}
+
+.b1 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+.b2 {
+    position: absolute;
+    bottom: 100px;
+    left: 140px;
+}
+
+.b3 {
+    position: absolute;
+    bottom: 100px;
+    left: 180px;
+}
+
+.bg1 {
+    position: absolute;
+    bottom: 100px;
+    right: 165px;
+}
+
+.bg2 {
+    position: absolute;
+    bottom: 100px;
+    right: 125px;
+}
+
+.bg3 {
+    position: absolute;
+    bottom: 100px;
+    right: 85px;
+}
+
+.htext {
+    position: absolute;
+    top: 60px;
+    left: 125px;
+}
+
+.gtext {
+    position: absolute;
+    top: 60px;
+    right: 110px;
+}
